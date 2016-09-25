@@ -37936,7 +37936,7 @@
 	    value: function componentDidMount() {
 	      var _this3 = this;
 
-	      this.req = _axios2.default.get("/config.json");
+	      this.req = _axios2.default.get("config.json");
 	      this.req.then(function (response) {
 	        return _this3.props.onConfigLoaded(response.data);
 	      });
